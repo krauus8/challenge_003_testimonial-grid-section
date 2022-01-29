@@ -1,0 +1,299 @@
+/*color palate
+Moderate violet: hsl(263, 55%, 52%)
+Very dark grayish blue: hsl(217, 19%, 35%)
+Very dark blackish blue: hsl(219, 29%, 14%)
+White: hsl(0, 0%, 100%)
+Light gray: hsl(0, 0%, 81%)
+Light grayish blue: hsl(210, 46%, 95%)*/
+.card_one {
+  background-color: hsl(263, 55%, 52%);
+  width: 30rem;
+  height: 15.5rem;
+  border-radius: 0.62rem;
+  top: 9.5rem;
+  left: 10rem;
+  filter: drop-shadow(2.5mm 2.5mm 2mm hsl(217, 19%, 80%));
+}
+
+.card_two {
+  background-color: hsl(217, 19%, 35%);
+  width: 15rem;
+  height: 15.5rem;
+  border-radius: 0.62rem;
+  top: -6rem;
+  left: 41rem;
+    filter: drop-shadow(2.5mm 2.5mm 2mm hsl(217, 19%, 80%));
+}
+
+.card_three {
+  background-color: hsl(219, 29%, 14%);
+  width: 30rem;
+  height: 15.5rem;
+  border-radius: 0.62rem;
+  top: -5rem;
+  left: 26rem;
+    filter: drop-shadow(2.5mm 2.5mm 2mm hsl(217, 19%, 80%));
+}
+
+.card_four {
+  background-color: hsl(0, 0%, 100%);
+  width: 15rem;
+  height: 15.5rem;
+  border-radius: 0.62rem;
+  top: -20.5rem;
+  left: 10rem;
+  filter: drop-shadow(1mm 4mm 2mm hsl(217, 19%, 80%));
+}
+
+.card_five {
+  background-color: hsl(0, 0%, 100%);
+  width: 15rem;
+  height: 31.7rem;
+  border-radius: 0.62rem;
+  top: -52.7rem;
+  left: 57.5rem;
+    filter: drop-shadow(4mm 4mm 5mm hsl(217, 19%, 80%));
+}
+
+/*images classes*/
+.Daniel_photo {
+  border: 0.125rem solid hsl(263, 55%, 80%);
+  top: 1rem;
+  left: 2rem;
+}
+
+.jonathan_photo {
+  border: 0.125rem solid hsl(263, 55%, 80%);
+  top: 1rem;
+  left: 2rem;
+}
+
+.patrick_photo {
+  border: 0.125rem solid hsl(263, 55%, 80%);
+  top: 1rem;
+  left: 2rem;
+}
+
+.Jeanette_photo {
+  border: 0.125rem solid hsl(263, 55%, 80%);
+  top: 1rem;
+  left: 2rem;
+}
+
+.Kira_photo {
+  border: 0.125rem solid hsl(263, 55%, 80%);
+  top: 1rem;
+  left: 2rem;
+}
+
+.p1_daniel {
+  display: inline-block;
+  color: hsl(0, 0%, 81%);
+  top: 0rem;
+  left: 3rem;
+  font-size: 0.81rem;
+}
+
+.p2_daniel {
+  display: inline-block;
+  color: hsl(0, 0%, 81%);
+  font-size: 0.7rem ;
+  top: 1rem;
+  left: -1.7rem;
+  opacity: 50%;
+}
+
+.p3_daniel {
+  display: inline-block;
+  color:hsl(0, 0%, 81%);
+  width: 85%;
+  left:2rem;
+
+}
+
+.p4_daniel {
+  display: inline-block;
+  color: hsl(0, 0%, 81%);
+  font-size: 0.7rem ;
+  top: -0.5rem;
+  left: 2rem;
+  opacity: 70%;
+  word-spacing: 0.125rem;
+width:85%;
+
+}
+.p1_jona {
+  display: inline-block;
+  color: hsl(0, 0%, 81%);
+  top: 0rem;
+  left: 3rem;
+  font-size: 0.81rem;
+}
+
+.p2_jona  {
+  display: inline-block;
+  color: hsl(0, 0%, 81%);
+  font-size: 0.7rem ;
+  top: 1rem;
+  left: -2.7rem;
+  opacity: 50%;
+}
+
+.p3_jona  {
+  display: inline-block;
+  color:hsl(0, 0%, 81%);
+  width: 70%;
+  left:2rem;
+
+}
+
+.p4_jona  {
+  display: inline-block;
+  color: hsl(0, 0%, 81%);
+  font-size: 0.7rem ;
+  top: -0.5rem;
+  left: 2rem;
+  opacity: 70%;
+  word-spacing: 0.125rem;
+width:70%;
+
+}
+.p1_patrick {
+  display: inline-block;
+  color: hsl(0, 0%, 81%);
+  top: 0rem;
+  left: 3rem;
+  font-size: 0.81rem;
+}
+
+.p2_patrick  {
+  display: inline-block;
+  color: hsl(0, 0%, 81%);
+  font-size: 0.7rem ;
+  top: 1rem;
+  left: -1.7rem;
+  opacity: 50%;
+}
+
+.p3_patrick {
+  display: inline-block;
+  color:hsl(0, 0%, 81%);
+  width: 85%;
+  left:2rem;
+
+}
+
+.p4_patrick  {
+  display: inline-block;
+  color: hsl(0, 0%, 81%);
+  font-size: 0.7rem ;
+  top: -0.5rem;
+  left: 2rem;
+  opacity: 70%;
+  word-spacing: 0.125rem;
+width:85%;
+
+}
+.p1_jean {
+  display: inline-block;
+  color: hsl(219, 29%, 14%);
+  top: 0rem;
+  left: 3rem;
+  font-size: 0.81rem;
+}
+
+.p2_jean  {
+  display: inline-block;
+  color: hsl(219, 29%, 14%);
+  font-size: 0.7rem ;
+  top: 1rem;
+  left: -2.7rem;
+  opacity: 50%;
+}
+
+.p3_jean {
+  display: inline-block;
+  color:hsl(219, 29%, 14%);
+  width: 70%;
+  left:2rem;
+
+}
+
+.p4_jean  {
+  display: inline-block;
+  color: hsl(219, 29%, 14%);
+  font-size: 0.7rem ;
+  top: 1.5rem;
+  left: 2rem;
+  opacity: 70%;
+  word-spacing: 0.125rem;
+width:70%;
+
+}
+.p1_kira {
+  display: inline-block;
+  color: hsl(219, 29%, 14%);
+  top: 0rem;
+  left: 3rem;
+  font-size: 0.81rem;
+}
+
+.p2_kira  {
+  display: inline-block;
+  color: hsl(219, 29%, 14%);
+  font-size: 0.7rem ;
+  top: 1rem;
+  left: -0.9rem;
+  opacity: 50%;
+}
+
+.p3_kira {
+  display: inline-block;
+  color:hsl(219, 29%, 14%);
+  width: 70%;
+  left:2rem;
+
+}
+
+.p4_kira  {
+  display: inline-block;
+  color: hsl(219, 29%, 14%);
+  font-size: 0.7rem ;
+  top: -0.5rem;
+  left: 2rem;
+  opacity: 70%;
+  word-spacing: 0.125rem;
+width:70%;
+
+
+}
+
+.quotaImage{
+  width: 7rem;
+  height:7rem;
+  color: white;
+    position: absolute;
+    top: 0.1rem;
+    left: 19rem;
+
+}
+
+/****TAGS*****/
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  line-height: 1.3;
+}
+
+img {
+  border-radius: 3.125rem;
+  width: 1.5625rem;
+  position: relative;
+}
+
+p {
+  position: relative;
+}
+
+div {
+  position: relative;
+}
